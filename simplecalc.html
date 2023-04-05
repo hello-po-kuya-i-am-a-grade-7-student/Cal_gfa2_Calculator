@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="simplecalc.css">
+    <script src="simplecalc.js"></script>
+  </head>
+  <body>
+  <div id = "calc">
+    <h1>calcU</h1>
+    <p>This page allows you to perform basic arithmetic operations between two numbers, including addition, subtraction, multiplication, division, and modulo. Just input two numbers and click the button of your desired operator!</p>
+    
+    <input type="number" id="Num1" value="Num1" placeholder = "Num 1" required>
+    <input type="number" id="Num2" value="Num2" placeholder = "Num 2" required>
+    <br> <br>
+    <button onclick="add()">+</button>
+    <button onclick="sub()">-</button>
+    <button onclick="mult()">*</button>
+    <button onclick="div()">/</button>
+    <button onclick="mod()">%</button>
+    <br> <br>
+    <p id="results">Results will be displayed here.</p>
+  </div>
+  
+  </body>
+</html>
